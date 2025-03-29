@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(img/star-wars-8693498_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.buttonHiden {
+    color: #ffffff;
+    border: 2px solid none;
+    border-radius: 15px;
+    border: 1px solid none;
+    text-transform: uppercase;
+    padding: 5px;
+    cursor: pointer;
+    background-color: green;
+    text-align: center;
+}

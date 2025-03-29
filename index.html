@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="p-10 w">
+    <div class="text-center">
+        <!-- open and close button -->
+        <button id="loadCharactersButton" class="buttonHiden">
+            Load Characters
+        </button>
+
+        <div id="filterInput" class="cursor-pointer mt-4 flex flex-wrap justify-center gap-4 hidden ">
+        </div>
+
+        <div id="charactersContainer"
+            class="hidden grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6 w-full max-w-6xlshadow-lg text-center">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
